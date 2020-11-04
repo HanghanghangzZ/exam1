@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="exam1:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/exam1_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="exam1" />
+          <element id="library" level="project" name="apache-tomcat-9.0" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.17" />
+          <element id="library" level="project" name="commons-fileupload-1.4" />
+          <element id="library" level="project" name="commons-io-2.8.0" />
+          <element id="library" level="project" name="jstl-1.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="exam1/web/Web" />
+    </root>
+  </artifact>
+</component>
